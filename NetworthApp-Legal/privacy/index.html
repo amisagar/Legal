@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vaulted — Privacy Policy</title>
+    <meta name="description" content="Vaulted's privacy policy. We don't collect your data. Everything stays on your device.">
+    <style>
+        :root {
+            --bg: #07080C;
+            --surface: #0F1117;
+            --surface-2: #15171F;
+            --surface-3: #1B1D27;
+            --text-1: #F5F5F7;
+            --text-2: #95969F;
+            --text-3: #595A66;
+            --text-4: #3A3B45;
+            --border: #1F2230;
+            --accent: #7B5BFF;
+            --accent-soft: rgba(123, 91, 255, 0.12);
+            --accent-border: rgba(123, 91, 255, 0.20);
+            --success: #4ADE80;
+            --success-soft: rgba(74, 222, 128, 0.10);
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html, body {
+            background: var(--bg);
+            color: var(--text-1);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+            -webkit-font-smoothing: antialiased;
+            line-height: 1.65;
+        }
+        .wrap {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 48px 24px 96px;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 56px;
+        }
+        .brand, .back {
+            font-family: ui-monospace, "SF Mono", Menlo, monospace;
+            font-size: 11px;
+            font-weight: 500;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--text-3);
+            text-decoration: none;
+        }
+        .brand:hover, .back:hover { color: var(--text-2); }
+
+        .header {
+            margin-bottom: 40px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid var(--border);
+        }
+        .eyebrow {
+            font-family: ui-monospace, "SF Mono", Menlo, monospace;
+            font-size: 11px;
+            font-weight: 500;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--text-3);
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 500;
+            letter-spacing: -0.5px;
+            margin-bottom: 12px;
+        }
+        .effective {
+            font-family: ui-monospace, "SF Mono", Menlo, monospace;
+            font-size: 12px;
+            color: var(--text-3);
+        }
+        h2 {
+            font-size: 18px;
+            font-weight: 500;
+            margin-top: 40px;
+            margin-bottom: 16px;
+            color: var(--text-1);
+        }
+        p, li {
+            color: var(--text-2);
+            font-size: 15px;
+            margin-bottom: 14px;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 14px;
+        }
+        li { margin-bottom: 8px; }
+        strong { color: var(--text-1); font-weight: 500; }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        code {
+            font-family: ui-monospace, "SF Mono", Menlo, monospace;
+            font-size: 13px;
+            background: var(--surface-2);
+            border: 1px solid var(--border);
+            padding: 1px 6px;
+            border-radius: 4px;
+            color: var(--text-1);
+        }
+
+        .short-version {
+            padding: 20px;
+            background: var(--accent-soft);
+            border: 1px solid var(--accent-border);
+            border-radius: 14px;
+            margin-bottom: 32px;
+        }
+        .short-version p { margin-bottom: 8px; color: var(--text-1); }
+        .short-version p:last-child { margin-bottom: 0; }
+
+        .footer {
+            margin-top: 64px;
+            padding-top: 32px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            font-size: 12px;
+            color: var(--text-3);
+        }
+        .footer a { color: var(--text-3); }
+        .footer a:hover { color: var(--text-2); }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <nav class="nav">
+            <a class="brand" href="/">open-fractal</a>
+            <a class="back" href="/vaulted/">← Vaulted</a>
+        </nav>
+
+        <header class="header">
+            <div class="eyebrow">Vaulted</div>
+            <h1>Privacy Policy</h1>
+            <div class="effective">Effective: {EFFECTIVE_DATE}</div>
+        </header>
+
+        <section class="short-version">
+            <p><strong>The short version.</strong></p>
+            <p>Vaulted stores your financial data on your device. We don't collect it, we don't see it, and we don't sell it. If you enable iCloud sync, your data goes directly from your device to your iCloud account under your Apple ID — we're not in the middle. There are no analytics, no tracking pixels, no third-party SDKs.</p>
+            <p>That's it. The rest of this policy is the legal detail.</p>
+        </section>
+
+        <h2>What Vaulted stores</h2>
+        <p>Vaulted stores the following on your device only:</p>
+        <ul>
+            <li>Account names, categories, currencies, and balances you enter</li>
+            <li>Historical balance snapshots you record</li>
+            <li>Financial goals you set</li>
+            <li>Your app preferences (currency, display name, notification schedule, app-lock setting)</li>
+            <li>Notes you write on snapshots or accounts</li>
+        </ul>
+        <p>None of this information leaves your device unless you enable iCloud sync (see below), export data manually via the Export screen, or share a screenshot yourself.</p>
+
+        <h2>iCloud sync</h2>
+        <p>If you enable iCloud sync in Settings, your account data is stored in your private iCloud database using CloudKit. This is Apple's system for personal cloud storage tied to your Apple ID. Vaulted:</p>
+        <ul>
+            <li>Cannot read or access your iCloud data</li>
+            <li>Cannot see other data in your iCloud account</li>
+            <li>Uses only the CloudKit <strong>private</strong> database (never the public or shared one)</li>
+            <li>Cannot sync your data to anyone else's device unless they sign in with your Apple ID</li>
+        </ul>
+        <p>Apple's privacy policy governs how iCloud handles your data: <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">https://www.apple.com/legal/privacy/</a></p>
+
+        <h2>What Vaulted does NOT do</h2>
+        <ul>
+            <li>We do not use analytics services (no Firebase, no Mixpanel, no Amplitude, no Meta / Facebook SDK, no equivalents)</li>
+            <li>We do not embed advertising SDKs</li>
+            <li>We do not track your usage</li>
+            <li>We do not integrate with bank-aggregation services like Plaid, MX, Yodlee, or similar</li>
+            <li>We do not send push notifications from our servers (all notifications are scheduled locally on your device)</li>
+            <li>We do not require an account signup — no email, no password, no phone number</li>
+        </ul>
+
+        <h2>StoreKit and subscriptions</h2>
+        <p>If Vaulted offers subscriptions, purchases are handled entirely by Apple through StoreKit. When you subscribe:</p>
+        <ul>
+            <li>Apple processes payment, not us</li>
+            <li>Your Apple ID handles subscription entitlement</li>
+            <li>We receive only an entitlement flag confirming your subscription status</li>
+            <li>We do not receive your credit card number, address, or purchase history</li>
+        </ul>
+        <p>Apple's App Store &amp; Privacy policy governs this: <a href="https://www.apple.com/legal/privacy/data/en/app-store/" target="_blank" rel="noopener">https://www.apple.com/legal/privacy/data/en/app-store/</a></p>
+
+        <h2>Face ID / Touch ID / passcode</h2>
+        <p>The optional App Lock feature uses your device's Face ID, Touch ID, or passcode. Authentication happens entirely on your device via Apple's LocalAuthentication framework. We never see your biometric data or your passcode — Apple's Secure Enclave handles it.</p>
+        <p>The App Lock preference itself is stored in the iOS Keychain on your device.</p>
+
+        <h2>Notifications</h2>
+        <p>Reminder notifications are scheduled locally on your device using <code>UNUserNotificationCenter</code>. They do not travel through any server. If you disable notifications for Vaulted in iOS Settings, they simply stop firing.</p>
+
+        <h2>Data export</h2>
+        <p>You can export all your data as JSON or CSV from Settings → Export Data. The exported file is written to a temporary location on your device and shared via the standard iOS share sheet. We do not receive a copy.</p>
+
+        <h2>Data deletion</h2>
+        <p>Because we don't have your data, we can't delete it for you. To delete your data from Vaulted:</p>
+        <ul>
+            <li>Delete accounts one-by-one within the app (permanently removes them and their snapshots after a short undo window)</li>
+            <li>Reset all preferences from Settings</li>
+            <li>Delete the app entirely, which removes the local SwiftData store</li>
+            <li>If you use iCloud sync, delete Vaulted data from your iCloud account in iOS Settings → your name → iCloud → Manage Account Storage → Vaulted</li>
+        </ul>
+
+        <h2>Children</h2>
+        <p>Vaulted is not directed at children under 13 and does not knowingly collect information about them. It does not knowingly collect information about anyone.</p>
+
+        <h2>Changes to this policy</h2>
+        <p>If we update this policy, the new version will be published at the same URL as this one, with a new effective date. Material changes will also be noted in the app's release notes.</p>
+
+        <h2>Contact</h2>
+        <p>Privacy questions? <a href="mailto:{SUPPORT_EMAIL}">{SUPPORT_EMAIL}</a></p>
+
+        <footer class="footer">
+            <span>Published by {YOUR_NAME_OR_ENTITY}.</span>
+            <a href="/vaulted/terms/">Terms of Service →</a>
+        </footer>
+    </div>
+</body>
+</html>

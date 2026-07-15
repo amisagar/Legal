@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vaulted — Terms of Service</title>
+    <meta name="description" content="Vaulted's terms of service.">
+    <style>
+        :root {
+            --bg: #07080C;
+            --surface: #0F1117;
+            --surface-2: #15171F;
+            --surface-3: #1B1D27;
+            --text-1: #F5F5F7;
+            --text-2: #95969F;
+            --text-3: #595A66;
+            --text-4: #3A3B45;
+            --border: #1F2230;
+            --accent: #7B5BFF;
+            --accent-soft: rgba(123, 91, 255, 0.12);
+            --accent-border: rgba(123, 91, 255, 0.20);
+            --warning: #FBBF24;
+            --warning-soft: rgba(251, 191, 36, 0.10);
+            --warning-border: rgba(251, 191, 36, 0.20);
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html, body {
+            background: var(--bg);
+            color: var(--text-1);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+            -webkit-font-smoothing: antialiased;
+            line-height: 1.65;
+        }
+        .wrap {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 48px 24px 96px;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 56px;
+        }
+        .brand, .back {
+            font-family: ui-monospace, "SF Mono", Menlo, monospace;
+            font-size: 11px;
+            font-weight: 500;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--text-3);
+            text-decoration: none;
+        }
+        .brand:hover, .back:hover { color: var(--text-2); }
+
+        .header {
+            margin-bottom: 40px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid var(--border);
+        }
+        .eyebrow {
+            font-family: ui-monospace, "SF Mono", Menlo, monospace;
+            font-size: 11px;
+            font-weight: 500;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--text-3);
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 500;
+            letter-spacing: -0.5px;
+            margin-bottom: 12px;
+        }
+        .effective {
+            font-family: ui-monospace, "SF Mono", Menlo, monospace;
+            font-size: 12px;
+            color: var(--text-3);
+        }
+        h2 {
+            font-size: 18px;
+            font-weight: 500;
+            margin-top: 40px;
+            margin-bottom: 16px;
+            color: var(--text-1);
+        }
+        p, li {
+            color: var(--text-2);
+            font-size: 15px;
+            margin-bottom: 14px;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 14px;
+        }
+        li { margin-bottom: 8px; }
+        strong { color: var(--text-1); font-weight: 500; }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .disclaimer {
+            padding: 20px;
+            background: var(--warning-soft);
+            border: 1px solid var(--warning-border);
+            border-radius: 14px;
+            margin-top: 32px;
+            margin-bottom: 32px;
+        }
+        .disclaimer .label {
+            font-family: ui-monospace, "SF Mono", Menlo, monospace;
+            font-size: 10px;
+            font-weight: 600;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+            color: var(--warning);
+            margin-bottom: 6px;
+        }
+        .disclaimer p {
+            color: var(--text-1);
+            margin: 0;
+        }
+
+        .footer {
+            margin-top: 64px;
+            padding-top: 32px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            font-size: 12px;
+            color: var(--text-3);
+        }
+        .footer a { color: var(--text-3); }
+        .footer a:hover { color: var(--text-2); }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <nav class="nav">
+            <a class="brand" href="/">open-fractal</a>
+            <a class="back" href="/vaulted/">← Vaulted</a>
+        </nav>
+
+        <header class="header">
+            <div class="eyebrow">Vaulted</div>
+            <h1>Terms of Service</h1>
+            <div class="effective">Effective: {EFFECTIVE_DATE}</div>
+        </header>
+
+        <h2>Accepting these terms</h2>
+        <p>By downloading, installing, or using Vaulted, you agree to these terms. If you don't agree, don't use the app.</p>
+
+        <h2>What Vaulted is</h2>
+        <p>Vaulted is a manual net-worth tracking app for iOS. You enter your account balances; Vaulted stores them, does math over them, and shows you charts and trends. It is not connected to any bank or brokerage. It is not a financial advisor. It is not a tax tool.</p>
+
+        <section class="disclaimer">
+            <div class="label">Not financial advice</div>
+            <p>Vaulted is a personal tracking tool, not financial advice. The projections, goal ETAs, biggest-mover callouts, and trend charts shown in the app are calculations based on data you enter and its history. Past performance does not predict future results. Nothing in the app should be interpreted as investment, tax, or legal advice. Before making decisions with real money, consult a licensed professional.</p>
+        </section>
+
+        <h2>Your license to use the app</h2>
+        <p>We grant you a personal, non-exclusive, non-transferable, revocable license to install and use Vaulted on devices you own or control, subject to these terms and to Apple's App Store terms of use: <a href="https://www.apple.com/legal/internet-services/itunes/" target="_blank" rel="noopener">https://www.apple.com/legal/internet-services/itunes/</a></p>
+
+        <h2>Restrictions</h2>
+        <p>You will not:</p>
+        <ul>
+            <li>Reverse engineer, decompile, or extract source code from Vaulted, except where and to the extent that applicable law expressly permits it</li>
+            <li>Redistribute, sell, or sublicense the app</li>
+            <li>Use Vaulted for any unlawful purpose</li>
+            <li>Attempt to disrupt, circumvent, or defeat the app's security features (including App Lock, StoreKit entitlements, or CloudKit sync)</li>
+        </ul>
+
+        <h2>Subscription (if applicable)</h2>
+        <p>Vaulted may offer subscription features via Apple's In-App Purchase system:</p>
+        <ul>
+            <li>Subscriptions renew automatically at the end of the billing period unless you cancel at least 24 hours before renewal</li>
+            <li>You can manage or cancel a subscription in iOS Settings → your Apple ID → Subscriptions</li>
+            <li>If a free trial is offered, it converts to a paid subscription unless you cancel before the trial ends</li>
+            <li>All billing is handled by Apple, not by us</li>
+            <li>Refund requests go through Apple: <a href="https://support.apple.com/HT204084" target="_blank" rel="noopener">https://support.apple.com/HT204084</a></li>
+        </ul>
+
+        <h2>Data on your device</h2>
+        <p>Vaulted stores your data on your device (see the <a href="/vaulted/privacy/">Privacy Policy</a>). It is your responsibility to back up important data. iCloud sync (if enabled) is your backup mechanism, but we make no warranty that data will always be recoverable — devices fail, iCloud accounts change, and sync can fail for reasons outside our control.</p>
+
+        <h2>Data ownership</h2>
+        <p>You own the data you enter into Vaulted. We claim no rights to it. If you delete the app, the data goes with it.</p>
+
+        <h2>Disclaimer of warranty</h2>
+        <p>Vaulted is provided <strong>"as is."</strong> To the maximum extent permitted by law, we disclaim all warranties, express or implied, including implied warranties of merchantability, fitness for a particular purpose, and non-infringement. We do not warrant that:</p>
+        <ul>
+            <li>The app will always be available</li>
+            <li>The app will be error-free</li>
+            <li>Calculations will always be accurate — verify anything material before acting on it</li>
+            <li>Data will never be lost, corrupted, or fail to sync</li>
+        </ul>
+
+        <h2>Limitation of liability</h2>
+        <p>To the maximum extent permitted by law, {YOUR_NAME_OR_ENTITY} will not be liable for indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of Vaulted, even if advised of the possibility. Our total aggregate liability for any claim related to Vaulted will not exceed the amount you paid us through Apple for the app in the twelve months before the claim.</p>
+        <p>Nothing in these terms limits liability that cannot be limited under applicable consumer law.</p>
+
+        <h2>Termination</h2>
+        <p>You can stop using Vaulted at any time. We may suspend or terminate access to Vaulted if you materially violate these terms. Termination does not automatically delete data stored on your device or in your iCloud account — see the Privacy Policy for how to delete that data yourself.</p>
+
+        <h2>Governing law</h2>
+        <p>These terms are governed by the laws of {JURISDICTION}, without regard to its conflict-of-law principles. Any dispute arising from these terms will be brought exclusively in the courts of {JURISDICTION}, unless applicable consumer-protection law grants you the right to bring it elsewhere.</p>
+
+        <h2>Changes to these terms</h2>
+        <p>We may update these terms occasionally. Updated terms will be published at the same URL as this document with a new effective date. Continued use of the app after changes take effect means you accept the updated terms.</p>
+
+        <h2>Contact</h2>
+        <p>Questions? <a href="mailto:{SUPPORT_EMAIL}">{SUPPORT_EMAIL}</a></p>
+
+        <footer class="footer">
+            <span>Published by {YOUR_NAME_OR_ENTITY}.</span>
+            <a href="/vaulted/privacy/">Privacy Policy →</a>
+        </footer>
+    </div>
+</body>
+</html>
